@@ -9,4 +9,6 @@ let tasks = [
   { label: "Make a trip", done: false },
 ];
 
-// Your code here
+let taskTrue = tasks.filter(task => task.done); // Condicional en una línea
+
+console.log(taskTrue);
